@@ -1887,7 +1887,7 @@ Misc:AddSwitch("Set Size", function(state)
     end
 end)
 
-Misc:AddSwitch("Anti AFK", function()
+Misc:AddButton("Anti AFK", function()
     loadstring(game:HttpGet("https://codeberg.org/ZaikerPTX/ANTI-AFK-ByKenzou/raw/branch/main/ANTI-AFK.lua"))()
 end)
 
