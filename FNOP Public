@@ -254,7 +254,7 @@ folder:AddSwitch("Fast Tools", function(Value)
 end, "Speed up all tools")
 
 local farming = window:AddTab("FARMING")
-farming:AddLabel("REBIRTH:")
+farming:AddLabel("REBIRTH:").TextSize = 20
 
 local targetRebirthValue = 0
 
@@ -364,7 +364,7 @@ local teleportSwitch = farming:AddSwitch("Auto King", function(bool)
     end
 end, "Tp to Mk")
 
-farming:AddLabel("ROCKS")
+farming:AddLabel("ROCKS").TextSize = 20
  
 local function gettool()
     for i, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
@@ -2194,9 +2194,6 @@ local credits = window:AddTab("Credits")
 
 credits:Show()
 credits:AddLabel("FNOP PUBLIC SCRIPT MADE BY PRIMEKENZOUU").TextSize = 20
-
 credits:AddLabel("THANK YOU FOR USING MY SCRIPT").TextSize = 20
-
 credits:AddLabel("I HOPE YOU ENJOY MY PUBLIC SCRIPT").TextSize = 20
-
 credits:AddLabel("POGI AKO, SIGE ANGAL KA DI KO IPAPAGAMIT SAYO TO").TextSize = 20
