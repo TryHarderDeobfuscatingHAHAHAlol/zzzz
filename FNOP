@@ -1888,7 +1888,7 @@ Misc:AddSwitch("Set Size", function(state)
 end)
 
 Misc:AddSwitch("Anti AFK", function()
-    loadstring(game:HttpGet("https://codeberg.org/ZaikerPTX/ANTI-AFK-ByKenzou/raw/branch/main/ANTI-AFK.lua", true))()
+    loadstring(game:HttpGet("https://codeberg.org/ZaikerPTX/ANTI-AFK-ByKenzou/raw/branch/main/ANTI-AFK.lua"))()
 end)
 
 Misc:AddSwitch("Hide All Frames", function(bool)
