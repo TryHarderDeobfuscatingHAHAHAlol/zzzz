@@ -1887,7 +1887,7 @@ Misc:AddSwitch("Set Size", function(state)
     end
 end)
 
-Misc:AddButton("Anti AFK", function()
+local antiAFKSwitch = Misc:AddSwitch("Anti AFK", function()
     loadstring(game:HttpGet("https://codeberg.org/ZaikerPTX/ANTI-AFK-ByKenzou/raw/branch/main/ANTI-AFK.lua"))()
 end)
 
@@ -1959,7 +1959,7 @@ Misc:AddSwitch("Lock Position", function(Value)
     end
 end)
 
-Misc:AddSwitch("Anti Knockback", function(Value)
+local antiKnockbackSwitch = Misc:AddSwitch("Anti Knockback", function(Value)
     if Value then
         local playerName = game.Players.LocalPlayer.Name
         local rootPart = game.Workspace:FindFirstChild(playerName):FindFirstChild("HumanoidRootPart")
@@ -1977,6 +1977,8 @@ Misc:AddSwitch("Anti Knockback", function(Value)
         end
     end
 end)
+
+antiKnockbackSwitch:Set(true)
 
 local autoEatEnabled = false
 local autoEatThread = nil
