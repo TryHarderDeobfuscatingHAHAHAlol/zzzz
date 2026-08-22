@@ -2193,7 +2193,7 @@ end
 local credits = window:AddTab("Credits")
 
 credits:Show()
-credits:AddLabel("FNOP PUBLIC SCRIPT MADE BY PRIMEKENZOUU").TextSize = 20
-credits:AddLabel("THANK YOU FOR USING MY SCRIPT").TextSize = 20
-credits:AddLabel("I HOPE YOU ENJOY MY PUBLIC SCRIPT").TextSize = 20
-credits:AddLabel("POGI AKO, SIGE ANGAL KA DI KO IPAPAGAMIT SAYO TO").TextSize = 20
+credits:AddLabel("FNOP PUBLIC SCRIPT MADE BY PRIMEKENZOUU")
+credits:AddLabel("THANK YOU FOR USING MY SCRIPT")
+credits:AddLabel("I HOPE YOU ENJOY MY PUBLIC SCRIPT")
+credits:AddLabel("POGI AKO, SIGE ANGAL KA DI KO IPAPAGAMIT SAYO TO")
