@@ -2192,8 +2192,7 @@ credits:Show()
 credits:AddLabel("FNOP PUBLIC SCRIPT MADE BY PRIMEKENZOUU")
 credits:AddLabel("THANK YOU FOR USING MY SCRIPT")
 credits:AddLabel("POGI AKO, SIGE ANGAL KA DI KO IPAPAGAMIT SAYO TO")
-
-Credits:AddLabel("")
+credits:AddLabel("")
 local wLabel = Credits:AddLabel("FNOP PUBLIC VERSION")
 wLabel.TextSize = 40
 wLabel.Font = Enum.Font.Arcade
