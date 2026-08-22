@@ -2191,5 +2191,5 @@ local credits = window:AddTab("Credits")
 credits:Show()
 credits:AddLabel("FNOP PUBLIC SCRIPT MADE BY PRIMEKENZOUU")
 credits:AddLabel("THANK YOU FOR USING MY SCRIPT")
+credits:AddLabel("I HOPE YOU ENJOY MY PUBLIC SCRIPT")
 credits:AddLabel("POGI AKO, SIGE ANGAL KA DI KO IPAPAGAMIT SAYO TO")
-credits:Addlabel("FNOP PUBLIC VERSION").TextSize = 40
